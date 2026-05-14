@@ -1,0 +1,27 @@
+{
+  "_chunk-Tgmj7OAo.js": {
+    "file": "assets/chunks/chunk-Tgmj7OAo.js",
+    "name": "renderPageClient"
+  },
+  "node_modules/vike/dist/client/runtime-client-routing/entry.js": {
+    "file": "assets/entries/entry-client-routing.BtiLgAjw.js",
+    "name": "entries/entry-client-routing",
+    "src": "node_modules/vike/dist/client/runtime-client-routing/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-Tgmj7OAo.js"
+    ],
+    "dynamicImports": [
+      "virtual:vike:page-entry:client:/src/pages/index"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/index": {
+    "file": "assets/entries/src_pages_index.CZ-kkGau.js",
+    "name": "entries/src/pages/index",
+    "src": "virtual:vike:page-entry:client:/src/pages/index",
+    "isEntry": true,
+    "imports": [
+      "_chunk-Tgmj7OAo.js"
+    ]
+  }
+}

@@ -1,7 +1,9 @@
-# Railway: Vite output must exist before `npm start`, or Express stays in API-only mode.
+# Express only serves the UI if dist/client/index.html exists (see server/index.js).
+# Railpack can start Node without copying Vike's dist/client into the final image —
+# use Dockerfile so the multi-stage build always runs `npm run build` and copies dist.
 # https://docs.railway.com/guides/config-as-code
 [build]
-buildCommand = "npm run build"
+builder = "DOCKERFILE"
 
 [deploy]
 startCommand = "npm start"

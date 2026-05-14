@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="LogSteak">
+  <defs>
+    <linearGradient id="logsteak-tab-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="45%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded square (tab icons render small — keep radii moderate) -->
+  <rect width="32" height="32" rx="7" ry="7" fill="url(#logsteak-tab-bg)" />
+  <rect
+    width="30"
+    height="30"
+    x="1"
+    y="1"
+    rx="6"
+    ry="6"
+    fill="none"
+    stroke="rgba(255,255,255,0.35)"
+    stroke-width="1"
+  />
+  <!-- White mark from logo.svg, centered & scaled to fit -->
+  <g transform="translate(16,16) scale(0.0926) translate(-106.43,-118.8)">
+    <path fill="#ffffff" d="M190.73,24.5h-81.47v188.59h81.47c5.51,0,10-4.49,10-10V34.5c0-5.51-4.49-10-10-10Z"/>
+    <path fill="#ffffff" d="M196.86,12.36h-87.6V0h-5.66v12.36H16C7.16,12.36,0,19.52,0,28.36v180.87c0,8.84,7.16,16,16,16h87.6v12.37h5.66v-12.37h87.6c8.84,0,16-7.16,16-16V28.36c0-8.84-7.16-16-16-16ZM204.73,203.09c0,7.72-6.28,14-14,14h-81.47s-5.66,0-5.66,0h0s-81.47,0-81.47,0c-7.72,0-14-6.28-14-14V34.5c0-7.72,6.28-14,14-14h81.47s5.66,0,5.66,0h0s81.47,0,81.47,0c7.72,0,14,6.28,14,14v168.59Z"/>
+    <path fill="#ffffff" d="M34.53,24.5v23.34h-10v-23.34h-2.4c-5.51,0-10,4.49-10,10v168.59c0,5.51,4.49,10,10,10h81.47v-48.82h-24.54v25.48h-10v11.63h-10v-27.11h10v-20h34.54V47.84h-24.54v35.48h-10v-15.48h-34.53v-10h34.53v-20h34.54v-13.34H34.53ZM24.53,83.32h10v35.48h-10v-35.48ZM44.53,174.27h-10v15.48h-10v-35.48h20v20ZM59.05,128.8v-25.48h20.01v10h-10.01v15.48h.01v10h-34.53v-10h24.52Z"/>
+  </g>
+</svg>
