@@ -1,0 +1,13 @@
+# Render Blueprint — free Node web service (sleeps after ~15 min idle; wakes on request).
+# Dashboard → New → Blueprint → connect this GitHub repo → apply.
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: logsteak-web
+    runtime: node
+    region: oregon
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health

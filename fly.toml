@@ -1,0 +1,29 @@
+# Fly.io — free resource allowance (shared CPU); requires: flyctl auth + fly launch
+# https://fly.io/docs/launch/pricing/
+#
+# After install:  fly launch --no-deploy   (adjust app name if taken)
+# Then:          fly deploy
+#
+# Fly sets PORT; this must match what the app listens on (see internal_port below).
+
+app = 'logsteak-web'
+primary_region = 'iad'
+
+[build]
+  dockerfile = 'Dockerfile'
+
+[env]
+  PORT = '8080'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '256mb'
+  cpu_kind = 'shared'
+  cpus = 1
