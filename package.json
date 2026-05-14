@@ -17,7 +17,6 @@
     "@mui/icons-material": "^6.5.0",
     "@mui/material": "^6.5.0",
     "express": "^5.1.0",
-    "imagetracerjs": "^1.2.6",
     "jszip": "^3.10.1",
     "multer": "^2.0.2",
     "potrace": "^2.1.8",
